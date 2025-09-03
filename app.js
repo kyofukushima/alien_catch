@@ -81,7 +81,7 @@ class AlienEvolutionGame {
     }
     
     async loadAssets() {
-        const gameAssets = {
+                const gameAssets = {
             spaceBackground: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/573475a2-01fd-4f32-8c52-d66184707d53.png",
             meteorite: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/aa2764ab-868f-47cd-9842-36a3c132df8d.png",
             meteorFire: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/bf78d1e5-02af-4a98-b8c8-e35a1c51a0cf.png",
@@ -92,24 +92,24 @@ class AlienEvolutionGame {
                 explode: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/d3972a20-95a0-48ba-a847-dcfc9f06478c.png"
             },
             stage2: {
-                idle: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/6bbcabb8-b887-4701-adc5-9b7c92096b80.png",
-                catch: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/9f454f16-6407-4e2b-b5a4-76b01fd2f5f8.png",
-                explode: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/065764bc-4922-4f69-a611-4075a534dea1.png"
+                idle: 'alien_lv2_idle.png',
+                catch: 'alien_lv2_catch.png',
+                explode: 'alien_lv2_explode.png'
             },
             stage3: {
-                idle: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/b7ed05a5-498e-4614-9c28-735c5c06bfab.png",
-                catch: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/cc3f220d-c7e5-4b67-9fd4-776de1f62cb0.png",
-                explode: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/a4489db3-490c-46d7-b3fa-4b15dbcd5602.png"
+                idle: 'alien_lv3_idle.png',
+                catch: 'alien_lv3_catch.png',
+                explode: 'alien_lv3_explode.png'
             },
             stage4: {
-                idle: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/da148181-5585-41a8-a9da-88bb1393686f.png",
-                catch: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/aafe411f-b3dc-4328-a925-c6f7c9234498.png",
-                explode: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/18654cd4-e1ca-40f9-a558-eaa213776518.png"
+                idle: 'alien_lv4_idle.png',
+                catch: 'alien_lv4_catch.png',
+                explode: 'alien_lv4_explode.png'
             },
             stage5: {
-                idle: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/fc7a2857-efe2-4814-b6e6-e05b455a6124.png",
-                catch: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/9a915321-a0dc-42b7-bc88-ca6e70b5033b.png",
-                explode: "https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/f2e53ec6-72ac-4261-b3d5-a20d1020a1c2.png"
+                idle: 'alien_lv5_idle.png',
+                catch: 'alien_lv5_catch.png',
+                explode: 'alien_lv5_explode.png'
             }
         };
         
