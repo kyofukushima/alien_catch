@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宇宙人進化キャッチゲーム！</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>宇宙人進化キャッチゲーム！</h1>
+            <div class="instructions">
+                <span id="instruction-text">タップしてキャッチ！</span>
+            </div>
+        </div>
+        
+        <div class="game-area">
+            <canvas id="gameCanvas"></canvas>
+            <div class="game-overlay">
+                <div id="result-text" class="result-text hidden"></div>
+                <div id="evolution-text" class="evolution-text hidden">進化！</div>
+            </div>
+        </div>
+        
+        <div class="game-info">
+            <div class="game-stats">
+                <div class="stat-group">
+                    <span>レベル: <span id="level-count">0</span></span>
+                    <span>進化段階: <span id="evolution-stage">1</span></span>
+                </div>
+                <div class="stat-group">
+                    <span>スピード: <span id="speed-multiplier">1.0x</span></span>
+                    <span>爆発: <span id="explosion-count">0</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
